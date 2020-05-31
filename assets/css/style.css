@@ -1,0 +1,51 @@
+/* universal styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #3675d9 ;
+    --secondary-color: #97ecf7;
+    --teritary-color: #7e8485;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fcfcf2;
+}
+
+h1, h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a  {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+section {
+    padding: 25px 0;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.primary-border {
+    border-left: 4px solid var(--teritary-color);
+}
+
+/* header classes */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    
+}
